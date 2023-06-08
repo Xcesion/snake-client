@@ -16,7 +16,7 @@ const connect = function () {
   conn.on("connect", () => {
     // code that does something when the connection is first established
     console.log("Successfully connected to game server")
-    // conn.write("Name: YHS")
+    conn.write("Name: YHS")
     
     // setInterval(()=> {
     //   conn.write("Move: up")
